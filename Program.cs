@@ -31,5 +31,4 @@ class HaloGeneric
     {
         Console.WriteLine("Halo user " + nama);
     }
-
 }
