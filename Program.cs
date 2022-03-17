@@ -8,3 +8,12 @@ public class ClassMain
         HaloGeneric.SapaUser<string>(ref nama);
     }
 }
+
+class HaloGeneric
+{
+    public static void SapaUser<T>(ref T nama)
+    {
+        Console.WriteLine("Halo user " + nama);
+    }
+
+}
